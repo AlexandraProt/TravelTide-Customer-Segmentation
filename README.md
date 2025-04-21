@@ -44,6 +44,13 @@ Support the marketing team in delivering more relevant offers and boosting custo
 
 ---
 
+## 📊 Dashboard Design
+
+Check out the proposed layout for the "Discount-Sensitive Users" dashboard:  
+👉 [Dashboard Mockup](visuals/dashboard_mockup.md)
+
+---
+
 ## 👤 Behavioral Features Considered
 
 - Average session duration  
