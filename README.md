@@ -2,116 +2,122 @@
 
 This project simulates a real-world data challenge from the online travel industry.
 
-As a Data Analyst at **TravelTide**, I worked on segmenting customers to support the launch of a **personalized rewards program**. The goal was to deliver data-driven recommendations based on user behavior and to help the marketing team tailor offers for better customer retention.
+As a Data Analyst at **TravelTide**, I worked on segmenting customers to support the launch of a **personalized rewards program**. The goal was to deliver data-driven recommendations based on user behavior and help the marketing team tailor offers for better customer retention.
 
 ---
 
-## 🧭 Project Purpose
+## 🎯 Project Goal
 
-To analyze customer behavior using booking data (flights and hotels), engineer behavioral features, segment customers using clustering techniques, and assign each group the most suitable perk. This analysis supports Elena, TravelTide’s Head of Marketing, in building a personalized and effective loyalty program.
-
----
-
-## 🗓️ Project Timeline & Phases
-
-The project was structured into **four weeks**, each focusing on a different key step:
+Segment TravelTide customers based on website behavior to enable **targeted perks** and **personalized marketing strategies**.  
+Support the marketing team in delivering more relevant offers and boosting customer loyalty.
 
 ---
 
-### 1️⃣ Exploratory Data Analysis (EDA)
+## 🔍 Methodology
 
-**Goal:** Understand the structure of the data, business needs, and prepare a clean dataset for analysis.
+### 🗂️ Data Sources Used
+- **PostgreSQL database** with the following tables:  
+  - `users`: user demographics and home location  
+  - `sessions`: user activity and booking sessions  
+  - `flights`: flight details per session  
+  - `hotels`: hotel bookings per session
 
-- Explored `users`, `sessions`, `flights`, and `hotels` tables  
-- Identified and removed invalid or irrelevant customers  
-- Joined tables to create a session-level base table  
-- Created the first aggregated dataset at the user level  
-- Documented all columns and clarified data meaning
+### 🧠 Key Steps in the Segmentation Process
+1. **Exploratory Data Analysis (EDA):**
+   - Inspected all tables and data distributions
+   - Joined tables to create a session-level base table
+   - Cleaned and enriched the data for feature extraction
 
----
-📌 **Outcome:**  
-A clean, enriched, and well-documented session-level table ready for segmentation.
+2. **Feature Engineering:**
+   - Created behavioral metrics such as:
+     - Total number of bookings
+     - Hotel vs. flight booking ratio
+     - Cancellation rate
+     - Recency and frequency of activity
+     - Discount usage
+   - Aggregated features at the user level
 
----
-
-### 🧩 Entity Relationship Diagram (ERD)
-
-To better understand the structure and relationships between the main tables, the following ERD was created:
-
-![ERD](https://github.com/AlexandraProt/TravelTide-Customer-Segmentation/blob/main/ERD.jpg)
-
-📌 Tables used:
-- `users`: user demographics and home location
-- `sessions`: user activity and bookings
-- `flights`: flight details per session
-- `hotels`: hotel booking info per session
-
----
-
-### 2️⃣ Feature Engineering
-
-**Goal:** Create meaningful user-level features for segmentation.
-
-- Devised metrics like:
-  - Total number of bookings  
-  - Hotel vs. flight booking ratio  
-  - Cancellation rate  
-  - Recency and frequency of bookings  
-- Aggregated session data to user level  
-- Captured key behavioral traits to distinguish customer types
-
-📌 **Outcome:**  
-Feature-rich customer profiles, ready for machine learning segmentation.
+3. **Customer Segmentation:**
+   - Applied **K-Means clustering**
+   - Labeled segments based on dominant behavioral traits
+   - Assigned relevant perks to each segment
 
 ---
 
-### 3️⃣ Customer Segmentation
+## 👤 Behavioral Features Considered
 
-**Goal:** Group customers based on their behavior to support reward personalization.
-
-- Applied clustering techniques (e.g. K-Means)
-- Identified and labeled distinct customer groups
-- Interpreted segments using customer attributes
-- Assigned **favorite perks** to each group:
-  - Free cancellations  
-  - Hotel discounts  
-  - Early access to deals  
-  - Priority boarding, etc.
-
-📌 **Outcome:**  
-Well-defined customer segments with tailored reward perks.
+- Average session duration  
+- Booking frequency (flights & hotels)  
+- Time between sessions  
+- Use of discounts and cancellations  
+- Total and average spending  
 
 ---
 
-### 4️⃣ Presentation & Delivery
+## 📊 Key Findings
 
-**Goal:** Communicate results clearly and convincingly to stakeholders.
+- Identified **5 distinct customer segments** with unique travel behaviors
+- Each group showed specific traits such as booking frequency, average spend, and presence of children
+- Suggested perks are tailored to reflect user motivation and potential loyalty
 
-- Created executive summary with cluster insights  
-- Presented customer personas based on real data  
-- Built visualizations (bar plots, scatter plots, radar charts)  
-- Applied data storytelling techniques  
-- Included KPIs to measure future program success
+---
 
-📌 **Outcome:**  
-A complete data story packaged into a stakeholder-friendly presentation.
+## 🎁 Perk Strategies
+
+| Segment Name             | Key Behavior Profile                                     | Suggested Perks                                 |
+|--------------------------|----------------------------------------------------------|--------------------------------------------------|
+| **Business Traveler**    | Frequent traveler, high km flown, short notice bookings | ✈️ Priority boarding, 💼 Free lounge access        |
+| **Dreamer**              | Low number of trips, inspired but inactive               | 🌍 Travel inspiration emails, 🎫 Welcome voucher   |
+| **Family Traveler**      | Travels with children, medium booking rate               | 👨‍👩‍👧‍👦 Free child stay, 🛏️ Family package deals    |
+| **Senior Traveler**      | Older age group, low frequency, steady behavior          | 🧓 Senior discounts, 📞 Personal booking assistant |
+| **Young Frequent Traveler** | Frequent, independent travelers                         | 🔄 Flexible cancellations, 🚀 Early access to deals |
+
+---
+
+## 📈 Implementation Ideas
+
+How segmentation can be implemented on the **TravelTide** platform:
+- Personalized homepage content
+- Behavior-based email campaigns
+- Retargeting ads using segment tags
+- Dynamic perks displayed based on user group
+
+---
+
+## 🔮 Next Steps
+
+- A/B testing of perks across customer segments  
+- Integration with CRM for real-time personalization  
+- Track segment shifts over time  
+- Monitor KPIs: engagement, conversion, retention per group
 
 ---
 
 ## 🧰 Tools & Technologies
 
 - **SQL** – Data extraction and joins  
-- **Python** – Data cleaning, feature engineering, clustering  
-- **Tableau** – Data visualization  
-- **Google Slides** – Final presentation
+- **Python** – Feature engineering & clustering (K-Means)  
+- **Tableau** – Visualizations (bar charts, radar charts, scatter plots)  
+- **Google Slides** – Stakeholder presentation  
 
 ---
 
-## ✅ Deliverables
+## 📦 Deliverables
 
-- Final `README.md` with full project description  
-- Session-level base table (.csv)  
-- Feature matrix for clustering  
-- Python notebook with segmentation logic  
-- Tableau dashboard (if applicable)  
-- Executive presentation deck  
+- ✅ `README.md` with full project description  
+- ✅ ERD diagram ([view here](https://github.com/AlexandraProt/TravelTide-Customer-Segmentation/blob/main/ERD.jpg))  
+- ✅ Feature matrix for clustering  
+- ✅ Python notebook with clustering logic  
+- ✅ Tableau dashboard  
+- ✅ Executive presentation
+
+---
+
+## 📝 Summary
+
+- **Goal:** Segment TravelTide users to deliver targeted perks based on behavior  
+- **Data:** PostgreSQL – `users`, `sessions`, `flights`, `hotels`  
+- **Methods:** SQL + Python (KMeans clustering) + Tableau  
+- **Features:** Bookings per session, discount usage, session time  
+- **Outcome:** 5 segments with tailored perks for personalization  
+- **Next Steps:** A/B testing, CRM integration, longitudinal tracking  
