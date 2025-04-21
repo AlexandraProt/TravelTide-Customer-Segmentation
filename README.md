@@ -28,8 +28,23 @@ The project was structured into **four weeks**, each focusing on a different key
 - Created the first aggregated dataset at the user level  
 - Documented all columns and clarified data meaning
 
+---
 📌 **Outcome:**  
 A clean, enriched, and well-documented session-level table ready for segmentation.
+
+---
+
+### 🧩 Entity Relationship Diagram (ERD)
+
+To better understand the structure and relationships between the main tables, the following ERD was created:
+
+![ERD](https://github.com/AlexandraProt/TravelTide-Customer-Segmentation/blob/main/ERD.jpg)
+
+📌 Tables used:
+- `users`: user demographics and home location
+- `sessions`: user activity and bookings
+- `flights`: flight details per session
+- `hotels`: hotel booking info per session
 
 ---
 
