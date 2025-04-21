@@ -1,0 +1,6 @@
+traveler_type,num_users,avg_age,share_with_children,avg_spent_hotel,avg_km_flown,avg_days_before_trip,avg_num_trips
+Business Traveler,95,44.5,0.0,725.9,2629.2,9.7,6.2
+Dreamer,1704,37.9,0.0,795.8,2533.0,10.1,1.3
+Family Traveler,2429,42.5,1.0,800.3,2570.5,10.1,2.4
+Senior Traveler,229,68.2,0.0,790.6,2514.8,10.1,0.9
+Young Frequent Traveler,1541,43.8,0.0,807.2,2433.9,10.1,3.7
