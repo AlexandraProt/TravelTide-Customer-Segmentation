@@ -73,7 +73,7 @@ This radar chart visualizes key behavioral differences between user segments:
 
 Each metric was normalized (min-max) to allow for fair visual comparison across different scales.
 
-📈 **Radar Chart Preview:**
+- **Radar Chart Preview:**
 
 ![Radar Chart](visuals/Normalized_User_Behavior_by_Traveler_Type.png)
 
