@@ -75,7 +75,7 @@ Each metric was normalized (min-max) to allow for fair visual comparison across 
 
 📈 **Radar Chart Preview:**
 
-![Radar Chart](visuals/Normalized_User_Behavior_by_Traveler_Type(1).png)
+![Radar Chart](visuals/Normalized_User_Behavior_by_Traveler_Type.png)
 
 📊 **Source Data:**  
 - [Radar_Chart_Template_-_Google_Sheets.xlsx](visuals/Radar_Chart_Template_-_Google_Sheets.xlsx)  
