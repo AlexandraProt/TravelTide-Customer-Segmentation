@@ -47,7 +47,8 @@ Support the marketing team in delivering more relevant offers and boosting custo
 ## 📊 Dashboard Design
 
 Check out the proposed layout for the "Discount-Sensitive Users" dashboard:  
-👉 [Dashboard Mockup](visuals/dashboard_mockup.md)
+👉 [Dashboard Mockup](visuals/dashboard_mockup.md)  
+👉 [📈 Tableau Dashboard](https://public.tableau.com/views/TravelTideProject_17452678508900/KPIADSperkm)
 
 ---
 
@@ -113,10 +114,21 @@ How segmentation can be implemented on the **TravelTide** platform:
 
 - ✅ `README.md` with full project description  
 - ✅ ERD diagram ([view here](https://github.com/AlexandraProt/TravelTide-Customer-Segmentation/blob/main/ERD.jpg))  
-- ✅ Feature matrix for clustering  
+- ✅ Feature matrix for clustering (`users_with_segments.csv`)  
 - ✅ Python notebook with clustering logic  
 - ✅ Tableau dashboard  
-- ✅ Executive presentation
+- ✅ Executive presentation  
+- ✅ Final report (PDF)
+
+---
+
+## 🗂️ Directory Structure
+
+📁 TravelTide-Customer-Segmentation/ │ ├── README.md ├── ERD.jpg ├── users_with_segments.csv ├── segmentation_notebook.ipynb ├── visuals/ │ └── dashboard_mockup.md ├── presentation/ │ └── Executive_Summary.pdf
+
+yaml
+Copy
+Edit
 
 ---
 
@@ -128,3 +140,12 @@ How segmentation can be implemented on the **TravelTide** platform:
 - **Features:** Bookings per session, discount usage, session time  
 - **Outcome:** 5 segments with tailored perks for personalization  
 - **Next Steps:** A/B testing, CRM integration, longitudinal tracking  
+
+---
+
+## 📽️ Video Presentation
+
+🎥 [Watch the 5-minute presentation](https://docs.google.com/presentation/d/1pDFQWuumOTJwHVdJOrDPidyqwfHe4uiSSmrp6Rv6QUU/edit?usp=sharing)  
+(Coming soon: link to Loom or YouTube with screen & camera)
+
+---
