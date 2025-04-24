@@ -50,14 +50,15 @@ The following dashboards provide interactive insights into user segments, prefer
 
 ### 1. 🎛 Segment Deep Dive Dashboard — Traveler Type
 
-<img src="visuals/traveler_type_dashboard.png" width="900"/>
+[🔗 View Interactive Dashboard in Tableau Public](https://public.tableau.com/views/TravelTideProject_17452678508900/TravelerType?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-Explore customer segments by:
-- Average Lifetime Value (LTV)
-- Trip Volume
-- Booking Frequency
-- Session Activity
+This dashboard compares customer segments based on:
+- 💰 Average Lifetime Value (LTV)  
+- ✈️ Total Trip Volume  
+- 📅 Booking Frequency  
+- 🕒 Session Activity  
 
+Use the dropdown filter at the top to explore each traveler type individually.
 📌 **Filter by `Traveler Type`** to analyze each segment individually.
 
 ### 2. 📈 KPI Dashboard – Value Metrics by Behavior
