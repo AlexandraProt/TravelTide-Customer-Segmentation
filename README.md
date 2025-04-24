@@ -46,9 +46,28 @@ Support the marketing team in delivering more relevant offers and boosting custo
 
 ## 📊 Dashboard Design
 
-Check out the proposed layout for the "Discount-Sensitive Users" dashboard:  
-👉 [Dashboard Mockup](visuals/dashboard_mockup.md)  
-👉 [📈 Tableau Dashboard](https://public.tableau.com/views/TravelTideProject_17452678508900/KPIADSperkm)
+The following dashboards provide interactive insights into user segments, preferences, and behavior.
+
+### 1. 🎛 Segment Deep Dive Dashboard — Traveler Type
+
+<img src="visuals/traveler_type_dashboard.png" width="900"/>
+
+Explore customer segments by:
+- Average Lifetime Value (LTV)
+- Trip Volume
+- Booking Frequency
+- Session Activity
+
+📌 **Filter by `Traveler Type`** to analyze each segment individually.
+
+### 2. 📈 KPI Dashboard – Value Metrics by Behavior
+
+👉 [View in Tableau Public](https://public.tableau.com/views/TravelTideProject_17452678508900/KPIADSperkm)
+
+Includes:
+- ADS per km
+- Conversion Rate
+- Discount Usage
 
 ---
 
