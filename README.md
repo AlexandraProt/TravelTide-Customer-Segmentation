@@ -163,14 +163,20 @@ How segmentation can be implemented on the **TravelTide** platform:
 - ✅ Final report (PDF)
 
 ---
+## 📁 Directory Structure
 
-## 🗂️ Directory Structure
+```
+TravelTide-Customer-Segmentation/
+├── README.md
+├── ERD.jpg
+├── users_with_segments.csv
+├── segmentation_notebook.ipynb
+├── visuals/
+│   └── dashboard_mockup.md
+├── presentation/
+│   └── Executive_Summary.pdf
+```
 
-📁 TravelTide-Customer-Segmentation/ │ ├── README.md ├── ERD.jpg ├── users_with_segments.csv ├── segmentation_notebook.ipynb ├── visuals/ │ └── dashboard_mockup.md ├── presentation/ │ └── Executive_Summary.pdf
-
-yaml
-Copy
-Edit
 
 ---
 
