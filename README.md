@@ -81,27 +81,26 @@ Includes:
 - Total and average spending  
 
 ---
-## 🕸️ Normalized Behavioral Profile by Traveler Type
+## 🧠 Normalized Behavioral Profile by Traveler Type
 
 This radar chart visualizes key behavioral differences between user segments:
 
-- **Session Duration**  
-- **Session Frequency**  
-- **Discount Usage**  
-- **ADS per km** (Amount of money saved per kilometer)  
+- **Session Duration**
+- **Session Frequency**
+- **Discount Usage**
+- **ADS per km** (Amount of money saved per kilometer)
 - **Conversion Rate**
 
 Each metric was normalized (min-max) to allow for fair visual comparison across different scales.
 
-- **Radar Chart Preview:**
+### 📊 Radar Chart Preview:
 
-![Radar Chart](visuals/Normalized_User_Behavior_by_Traveler_Type.png)
+![Radar Chart](visuals/Normalized%20User%20Behavior%20by%20Traveler%20Type.png)
 
+### 📁 Source Data:
 
-📊 **Source Data:**  
-- [Radar_Chart_Template_-_Google_Sheets.xlsx](visuals/Radar_Chart_Template_-_Google_Sheets.xlsx)  
-
-- [View in Google Sheets](https://docs.google.com/spreadsheets/d/1_y7IOsS5wWyqMyzKCYx9QUFS5sLNgdjJJ-3vEBjhj_o/edit?usp=sharing)
+- 📊 [Radar_Chart_Template_-_Google_Sheets.xlsx](visuals/Radar_Chart_Template_-_Google_Sheets.xlsx)  
+- 🔗 [View in Google Sheets](https://docs.google.com/spreadsheets/d/1_y7IOsS5wWyqMyzKCYx9QUFS5sLNgdjJJ-3vEBjhj_o/edit?usp=sharing)
 
 
 ## 📊 Key Findings
