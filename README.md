@@ -186,7 +186,7 @@ Edit
 
 ## 📽️ Video Presentation
 
-🎥 [Watch the 5-minute presentation](https://docs.google.com/presentation/d/1pDFQWuumOTJwHVdJOrDPidyqwfHe4uiSSmrp6Rv6QUU/edit?usp=sharing)  
-(Coming soon: link to Loom or YouTube with screen & camera)
+🎥 [Watch the 5-minute presentation on Loom](https://www.loom.com/share/a205f201cbf24aeb967416b477a47b0d?sid=67e54ce3-5741-473b-8598-841791b2c194)
+[View the Google Slides](https://docs.google.com/presentation/d/1pDFQWuumOTJwHVdJOrDPidyqwfHe4uiSSmrp6Rv6QUU/edit?usp=sharing)
 
 ---
